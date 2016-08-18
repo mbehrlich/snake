@@ -1,0 +1,27 @@
+.content {
+  width: 900px;
+  margin: auto;
+}
+
+.snake {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border: 5px solid black;
+  margin: auto;
+  position: relative;
+}
+
+.segment {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: black;
+}
+
+.apple {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: green;
+}
